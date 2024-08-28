@@ -1,0 +1,16 @@
+[package]
+name = "snmp-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rasn = "0.16.5"
+rasn-snmp = "0.16.5"
+rasn-smi = "0.16.5"
+object-pool = "0.6.0"
+num-bigint = "0.4.6"
+rand = "0.8.5"
+thiserror = "1.0.63"
+arrayvec = "0.7.6"
+tokio = { version = "1.39.3", features = ["full"] }
+tracing = "0.1.40"
